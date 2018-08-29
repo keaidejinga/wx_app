@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/dianying/dianying",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":100
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "red",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "position": "buttom",
+    "list": [
+      {
+        "pagePath": "pages/dianying/dianying",
+        "text": "电影",
+        "iconPath": "image/cinema.png",
+        "selectedIconPath": "image/selectcinema.png"
+      },
+      {
+        "pagePath": "pages/dianying/dianying",
+        "text": "影院",
+        "iconPath": "image/film.png",
+        "selectedIconPath": "image/selectfilm.png"
+      },
+      {
+        "pagePath": "pages/dianying/dianying",
+        "text": "演出",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/selectmy.png"
+      }
+    ]
+  }
+}

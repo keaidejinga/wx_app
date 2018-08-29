@@ -1,0 +1,20 @@
+<!--components/dy_list/dy_list.wxml-->
+<view class='wrap' wx:for="{{movieList}}">
+    <image  class='dy_img' src='{{item.img}}'></image>
+
+    <view class='center'>
+        <view class='dy_name'>
+          <text class='my_name'>{{item.nm}}</text>
+          <text class='ifD'>{{item.version}}</text>
+        </view>
+        <view class='dy_score'>
+          <text class='my_text'>猫眼评分</text>
+          <text  class='my_score'>{{item.sc}}</text>
+        </view>
+        <text class='dy_star'>{{item.star}}</text>
+        <view class='dy_look'>{{item.showInfo}}</view>
+    </view>
+    <view  wx:if="{{item.globalReleased==true}}" class='dy_shop'>购票</view>
+    <view  wx:elif="{{item.globalReleased==false}}" class='dy_noshop'>预售</view>
+</view>
+

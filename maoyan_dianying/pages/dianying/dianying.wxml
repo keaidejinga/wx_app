@@ -1,0 +1,43 @@
+<!--pages/dianying/dianying.wxml-->
+<!-- 
+  wx2.2.3 wxs模块下不允许使用 new Date()
+  解决方案: getDate();
+ -->
+<view class='header'>
+  <view class='area'>大连</view>
+  <view class='look'>
+  <view bindtap='click' class='islook'>正在上映</view>
+  <view bindtap='click' class='iflook'>即将上映</view>
+  </view>
+</view>
+<!-- 这个轮播图有写好的组件直接引进来就ok -->
+<movie imgUrls="{{imgUrls}}"></movie>
+<!-- 固定的五个可爱的小图标 -->
+<view class='classify'>
+  <view class='content'>
+    <view class='classify_1'>
+        <image src='../../image/free.png'></image>
+        <view>免费看电影</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../image/dancing.png'></image>
+        <view>演唱会/话剧</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../image/luck.png'></image>
+        <view>1分抽奖</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../image/color.png'></image>
+        <view>抽电影票</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../image/tv.png'></image>
+        <view>正版周边</view>
+    </view>
+  </view></view>
+<!-- 下面数据渲染出来的 -->
+<dy_list  movieList="{{movieList}}"></dy_list>
+<!-- 最下面的导航 -->
+<!-- 占位置的一块空白 -->
+

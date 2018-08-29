@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "dy_list": "../../components/dy_list/dy_list",
+    "movie":"../../components/movie/movie"
+  }
+}

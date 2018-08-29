@@ -1,0 +1,93 @@
+/* components/dy_list/dy_list.wxss */
+/* 容器样式 */
+.wrap{
+  margin:0 0rpx 0rpx 30rpx;
+  border-bottom: 1px solid lightgray;
+  
+}
+/* 图片样式 */
+.dy_img{
+  margin-top: 14rpx;
+  width: 128rpx;
+  height: 180rpx;
+}
+/* 中间一整块的样式 */
+.center{
+display: inline-block;
+width: 380rpx;
+padding: 20rpx;
+vertical-align: top
+}
+.dy_name{
+
+}
+/* 电影名字的样式 */
+.my_name{
+font-size: 32rpx;
+}
+/* 3D的样式 */
+.ifD{
+ font-size: 20rpx;
+ 
+background: rgb(92, 143, 190);
+margin: 5rpx
+}
+/* 评分一块的样式 */
+.dy_score{
+
+
+
+}
+/* 猫眼评分四个字的样式 */
+.my_text{
+font-size: 26rpx;
+}
+/* 评分的样式 */
+.my_score{
+  font-size: 34rpx;
+  color: orange;
+  margin-left: 10rpx
+}
+/* 主演名字的样式 */
+.dy_star{
+font-size: 26rpx;
+color: gray;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp:1;
+}
+/* 放映的样式 */
+.dy_look{
+font-size: 26rpx;
+color: rgb(180, 179, 179)
+
+}
+/* 按钮的样式 */
+.dy_shop{
+display: inline-block;
+background-color: red;
+color: white;
+font-size: 22rpx;
+text-align: center;
+padding: 8rpx 22rpx;
+border: 1px solid rgb(182, 4, 4);
+border-radius: 10rpx;
+vertical-align: top;
+margin-top:110rpx; 
+margin-left:50rpx
+}
+.dy_noshop{
+display: inline-block;
+background-color: blue;
+color: white;
+font-size: 22rpx;
+text-align: center;
+padding: 8rpx 22rpx;
+border: 1px solid rgb(2, 39, 161);
+border-radius: 10rpx;
+vertical-align: top;
+margin-top:110rpx; 
+margin-left:50rpx
+}
